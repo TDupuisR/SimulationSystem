@@ -148,4 +148,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_recoverPlanetList: {fileID: 0}
   m_rb: {fileID: 8844547520419059666}
-  masse: 0
+  GPower: 11
+  _masse: 0
