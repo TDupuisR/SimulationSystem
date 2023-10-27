@@ -13,7 +13,7 @@ public class WorldPlanetRecover : MonoBehaviour
     public PlanetBehavior[] PlanetScriptList { get => m_planetScriptList; }
     public float GPower { get => m_GPower; }
 
-    private void Start()
+    private void Awake()
     {
         m_planetScriptList = new PlanetBehavior[m_planetList.Length];
 
